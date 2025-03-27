@@ -103,6 +103,11 @@ This script:
 ## 📸 Screenshots
 
 ![Chat Screenshot](./src/assets/react-basics.gif)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/efe20429-3cee-4b11-8569-dc0928ca097c" />
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4a78d0d1-cddd-4ed7-ba5b-18de42b271c1" />
+
+
 
 ---
 
