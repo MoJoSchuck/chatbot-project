@@ -1,9 +1,18 @@
 .chat-messages-container {
     flex-grow: 1;
     margin-top: 20px;
-    overflow: scroll;
+    /* overflow: scroll; */
     scrollbar-width: none;
+    overflow-y: auto;
     -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    
+    /* Importend for hiding Safari-Scrollbar */
+    padding-right: 1px;
+}
+
+.chat-messages-container::-webkit-scrollbar {
+    display: none;
 }
 
 .welcome-message {
