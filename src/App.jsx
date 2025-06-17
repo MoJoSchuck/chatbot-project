@@ -21,9 +21,11 @@ function App() {
         localStorage.setItem('messages', JSON.stringify(chatMessages));
     }, [chatMessages]);
 
+    const title = `${chatMessages.length} Messages`
+
     return (
         <>
-            <title>Chatbot Project</title>
+            <title>{title}</title>
             <link rel="icon" type="image/svg+xml" href={RobotProfileImage} />
 
             <div className="app-container"> {chatMessages.length === 0 && (
